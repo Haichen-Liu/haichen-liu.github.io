@@ -9,19 +9,35 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am currently pursuing my master’s degree at the [School of Engineering](https://eng.ed.ac.uk/), [University of Edinburgh](https://www.ed.ac.uk/), where I’m fortunate to be supervised by Prof. [Sotirios A. Tsaftaris](https://eng.ed.ac.uk/about/people/professor-sotirios-tsaftaris), with co-supervision from Dr. [Panagiotis Dimitrakopoulos](https://vios.science/team/) and Mr. [Konstantinos Vilouras](https://vios.science/team/).
+Hello! I received my MSc in **Signal Processing and Communications** from the [School of Engineering](https://eng.ed.ac.uk/), [University of Edinburgh](https://www.ed.ac.uk/). During my MSc, I was fortunate to be supervised by Prof. [Sotirios A. Tsaftaris](https://eng.ed.ac.uk/about/people/professor-sotirios-tsaftaris), with co-supervision from Dr. [Panagiotis Dimitrakopoulos](https://vios.science/team/) and Mr. [Konstantinos Vilouras](https://vios.science/team/). Their guidance helped me develop my understanding of research, experimental design, and critical analysis.
 
-My primary research interests lie in deep learning, image processing, and computer vision. I am particularly interested in enhancing the efficiency and accuracy of AI algorithms, with applications spanning object detection and human pose estimation. Throughout my academic journey, I have sought to bridge theoretical knowledge and practical applications. My work has included object detection models such as  [YOLO](https://github.com/ultralytics/ultralytics), [DETR](https://github.com/facebookresearch/detr), [SSD](https://github.com/amdegroot/ssd.pytorch), and [Faster R-CNN](https://github.com/jwyang/faster-rcnn.pytorch), as well as human pose estimation methods like [YOLOPose](https://arxiv.org/abs/2204.06806), [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), and [VideoPose3D](https://github.com/facebookresearch/VideoPose3D).  
+Previously, I completed my undergraduate studies at the [School of Electronic Engineering](https://dianzi.tute.edu.cn/), [Tianjin University of Technology and Education](https://www.tute.edu.cn/). I had the opportunity to work with Prof. [Chengguang Sun](https://dianzi.tute.edu.cn/info/1291/25242.htm), Prof. [Jianqiang Mei](https://dianzi.tute.edu.cn/info/1291/25232.htm), Prof. [Dan Cheng](https://dianzi.tute.edu.cn/info/1291/25162.htm), and Prof. [Xuewen Ding](https://dianzi.tute.edu.cn/info/1291/25172.htm) on topics related to the Internet of Things, embedded systems, image processing, and machine learning.
 
----
-
-Before pursuing my master’s studies, I had the privilege of working with Prof. [Chengguang Sun](https://dianzi.tute.edu.cn/info/1291/25242.htm), Prof. [Jianqiang Mei](https://dianzi.tute.edu.cn/info/1291/25232.htm), Prof. [Dan Cheng](https://dianzi.tute.edu.cn/info/1291/25162.htm), and Prof. [Xuewen Ding](https://dianzi.tute.edu.cn/info/1291/25172.htm)  on topics related to the Internet of Things, Embedded Systems, Image Processing, and Machine Learning at the [School of Electronic Engineering](https://dianzi.tute.edu.cn/), [Tianjin University of Technology and Education](https://www.tute.edu.cn/). Under the supervision of Prof. [Sun](https://dianzi.tute.edu.cn/info/1291/25242.htm), I completed my undergraduate thesis “Design of Intelligent Greenhouse Garden Based on AIoT Technology”, which was awarded The Excellent Graduation Project (Thesis) in 2023. Later, under Prof. [Mei](https://dianzi.tute.edu.cn/info/1291/25232.htm)’s supervision, I further strengthened my research and academic writing skills in deep learning and computer vision. 
+Under the supervision of Prof. Chengguang Sun, I completed my undergraduate thesis, *“Design of Intelligent Greenhouse Garden Based on AIoT Technology,”* which received an **Excellent Graduation Project (Thesis) Award in 2023**. I subsequently developed my research and academic writing skills in deep learning and computer vision under the guidance of Prof. Jianqiang Mei.
 
 ---
 
-### 🔍 Current Research
+### 🔍 Research Interests
 
-I am currently conducting research on **Visual Anagrams and Optical Illusions** at the University of Edinburgh, under the supervision of Prof. [Tsaftaris](https://vios.science/team/), Dr. [Dimitrakopoulos](https://vios.science/team/), and Mr. [Vilouras](https://vios.science/team/). My work investigates how **generative diffusion models** can be used to create **multi-view optical illusions** that explore the boundaries between **visual perception** and **machine generation**. This research focuses on understanding how generative models represent **ambiguous visual information**, and how content–style and content–content interactions influence the creation of perceptually coherent yet semantically distinct images. The ultimate goal is to provide insights into **human perception** and **AI interpretability** through the lens of generative modeling.
+My research interests centre on **generative artificial intelligence, deep learning, and computer vision**, particularly:
+
+- **Generative models:** diffusion models and generative adversarial networks (GANs), with an interest in controllable image generation, sampling methods, and the evaluation of generated images.
+- **Medical image analysis and computational pathology:** exploring how learning-based methods can support image segmentation, cell and tissue analysis, and learning with limited annotated data.
+- **Reliable and efficient visual learning:** understanding model behaviour, evaluating robustness, and examining when a method succeeds or fails.
+
+My previous project experience also includes **object detection, human pose estimation, and AIoT systems**. I enjoy connecting mathematical ideas with practical implementations and carefully designed experiments.
+
+---
+
+### 🎓 MSc Research: Visual Anagrams
+
+My MSc project investigated **Visual Anagrams**—images that reveal different visual concepts under transformations such as flips and rotations—using pretrained generative diffusion models.
+
+The work focused on **training-free, sampling-time control** for balancing the contributions of different views. I developed **conflict-gated CFG residual balancing (RB)**, which adaptively reweights the conditional–unconditional guidance differences during sampling.
+
+Through paired experiments and analysis of both improvements and failure cases, I examined the capabilities and limitations of this approach. I also explored semantic-direction and attention-overlap controls as complementary directions.
+
+Building on this work, I am interested in further investigating **controllable generation, reliable evaluation, and applications of generative models to scientific and medical imaging**.
 
 #### 🖼️ Visual Anagram Examples
 
