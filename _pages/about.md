@@ -31,13 +31,9 @@ My previous project experience also includes **object detection, human pose esti
 
 ### 🎓 MSc Research: Visual Anagrams
 
-My MSc project investigated **Visual Anagrams**—images that reveal different visual concepts under transformations such as flips and rotations—using pretrained generative diffusion models.
+Under the guidance of my supervisors, my MSc project explored **Visual Anagrams**—images that reveal different concepts when flipped or rotated—using generative diffusion models.
 
-The work focused on **training-free, sampling-time control** for balancing the contributions of different views. I developed **conflict-gated CFG residual balancing (RB)**, which adaptively reweights the conditional–unconditional guidance differences during sampling.
-
-Through paired experiments and analysis of both improvements and failure cases, I examined the capabilities and limitations of this approach. I also explored semantic-direction and attention-overlap controls as complementary directions.
-
-Building on this work, I am interested in further investigating **controllable generation, reliable evaluation, and applications of generative models to scientific and medical imaging**.
+I studied the original baseline and explored **potential training-free improvements to the sampling process**. This work helped me develop my understanding of generative modelling, experimental evaluation, and possible directions for further research.
 
 #### 🖼️ Visual Anagram Examples
 
